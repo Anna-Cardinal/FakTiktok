@@ -31,7 +31,28 @@ public class Calculator {
                 total = firstNum * secondNum;
                 System.out.println("Your answer is " + total);
             }
+            // Declare the variables
+            String firstname;
+            float hoursWorked;
+            float payrate;
+            float grosspay;
+            Scanner scanner = new Scanner(System.in);
 
+// Asking for input
+           /* System.out.println("What is your firstname?");
+            firstname = scanner.nextLine();
+
+            System.out.println("What is your payrate?");
+            payrate = scanner.nextFloat();
+
+            System.out.println("How many hours did you worked");
+            hoursWorked = scanner.nextFloat();
+
+// Doing the calculation (algoritme)
+            grosspay = hoursWorked * payrate;
+
+// Displaying the output
+            System.out.println(firstname + " earned $" + grosspay);*/
 
 
 
