@@ -31,8 +31,14 @@ public class Calculator {
                 total = firstNum * secondNum;
                 System.out.println("Your answer is " + total);
             }
+
+
+
+
+
+
             // Declare the variables
-            String firstname;
+           /* String firstname;
             float hoursWorked;
             float payrate;
             float grosspay;

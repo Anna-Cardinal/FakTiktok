@@ -1,7 +1,7 @@
 import java.util.Objects;
 import java.util.Scanner;
 
-public class Main {
+
     public static void main(String[] args) {
         System.out.println("Hello world!");
 
@@ -27,5 +27,26 @@ public class Main {
             System.out.println("Password Incorrect.");
                 isLoggedin = false;
         }
+
+        LikeTheVideo("Spiderman");
     }
+
+
+
+
+
+
+public static void LikeTheVideo(String videoTitle){
+    System.out.println("The person liked the movie " + videoTitle);
 }
+
+
+
+
+
+
+
+
+
+
+
